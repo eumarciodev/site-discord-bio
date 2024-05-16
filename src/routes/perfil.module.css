@@ -1,0 +1,25 @@
+* {
+  color: white;
+  box-sizing: border-box;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 6rem;
+}
+
+.card {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background: linear-gradient(45deg, #111, #121213, #121212);
+  padding: 3rem 5rem 10rem 5rem;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.badge img {
+  width: 20px;
+}

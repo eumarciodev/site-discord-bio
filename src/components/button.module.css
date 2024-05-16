@@ -1,0 +1,25 @@
+:root {
+  --button: #121213;
+  --color: #fff;
+}
+
+.Link_button {
+  padding: 1rem 5rem 1rem 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--button);
+  border: none;
+  border-radius: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color);
+  border: 1px solid var(--color);
+  transition: background-color 1s ease;
+}
+
+.Link_button:hover {
+  background-color: #fff;
+  color: #111;
+}
