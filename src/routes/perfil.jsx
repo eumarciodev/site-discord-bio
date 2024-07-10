@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Styles from "./perfil.module.css";
 
-const url = "https://2911-144-22-241-121.ngrok-free.app";
+const url = "https://2d64-144-22-241-121.ngrok-free.app";
 
 async function fetchUserData(user_id) {
   const response = await fetch(`${url}/profile`, {
